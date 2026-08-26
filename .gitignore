@@ -1,2 +1,4 @@
 
 .zmk/
+.DS_Store
+firmware/
