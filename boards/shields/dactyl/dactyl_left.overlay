@@ -1,4 +1,5 @@
 #include "dactyl.dtsi"
+#include <physical_layouts.dtsi>
 
 / {
     default_transform: keymap_transform0 {
@@ -11,5 +12,32 @@
             RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)
                             RC(3,2) RC(3,3) RC(3,4)
         >;
+    };
+
+    dactyl_left_layout: dactyl_left_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Dactyl Left";
+        transform = <&default_transform>;
+        keys
+            //                     w    h    x    y   rot  rx  ry
+            = <&key_physical_attrs 100  100    0    0     0   0   0>
+            , <&key_physical_attrs 100  100  100    0     0   0   0>
+            , <&key_physical_attrs 100  100  200    0     0   0   0>
+            , <&key_physical_attrs 100  100  300    0     0   0   0>
+            , <&key_physical_attrs 100  100  400    0     0   0   0>
+            , <&key_physical_attrs 100  100    0  100     0   0   0>
+            , <&key_physical_attrs 100  100  100  100     0   0   0>
+            , <&key_physical_attrs 100  100  200  100     0   0   0>
+            , <&key_physical_attrs 100  100  300  100     0   0   0>
+            , <&key_physical_attrs 100  100  400  100     0   0   0>
+            , <&key_physical_attrs 100  100    0  200     0   0   0>
+            , <&key_physical_attrs 100  100  100  200     0   0   0>
+            , <&key_physical_attrs 100  100  200  200     0   0   0>
+            , <&key_physical_attrs 100  100  300  200     0   0   0>
+            , <&key_physical_attrs 100  100  400  200     0   0   0>
+            , <&key_physical_attrs 100  100  200  300     0   0   0>
+            , <&key_physical_attrs 100  100  300  300     0   0   0>
+            , <&key_physical_attrs 100  100  400  300     0   0   0>
+            ;
     };
 };
