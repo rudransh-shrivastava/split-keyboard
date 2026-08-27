@@ -6,6 +6,11 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
+                &none &none &none &none &none
+                &none &none &none &none &none
+                &none &none &none &none &none
+                            &none &none &none
+
                 &kp A &kp B &kp C &kp D &kp E
                 &kp F &kp G &kp H &kp I &kp J
                 &kp K &kp L &kp M &kp N &kp O
