@@ -6,7 +6,7 @@
 | ------------- | --------------- | -------------------------------------------------------- | ----------------------------------------------- |
 | Controller    | 2               | Pro Micro NRF52840 - wireless, nice!nano v2 compatible   | [probots.co.in / pro-micro-nrf52840](https://probots.co.in/pro-micro-nrf52840-development-board-compatible-with-nice-nano-v2-0.html) |
 | Switches      | 4 packs         | Click Inc HP (tactile, pack of 10)                       | [stackskb.com / click-inc-hp](https://stackskb.com/store/click-inc-hp-switch-pack-of-10-pre-order/) |
-| Keycaps       | 2 packs         | get minimum two as it's mystery quantity                 | [stackskb.com / numpad-keycaps](https://stackskb.com/store/numpad-keycaps/) |
+| Keycaps       | 2 packs         | Get minimum two as it's mystery quantity                 | [stackskb.com / numpad-keycaps](https://stackskb.com/store/numpad-keycaps/) |
 | Case / Plate  | 1 print         | v1.0, 3D print it                                          | [github.com / juhakaup/keyboards](https://github.com/juhakaup/keyboards) |
 | Battery       | 2               | 400 mAh                                                  | [robu.in / 400mah-lipo](https://robu.in/product/wly701635-400mah-3-7v-single-cell-rechargeable-lipo-battery/) |
 | Zener Diodes  | 1 pack          | 1N4148 (pack of 50)                                      | [robu.in / 1n4148-zener](https://robu.in/product/1n4148-1w-zener-diode-pack-of-50/) |
