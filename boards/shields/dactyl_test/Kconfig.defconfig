@@ -1,0 +1,6 @@
+if SHIELD_DACTYL_TEST_LEFT || SHIELD_DACTYL_TEST_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "dactyl_test"
+
+endif
