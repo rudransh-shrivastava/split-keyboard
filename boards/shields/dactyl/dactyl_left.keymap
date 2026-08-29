@@ -105,12 +105,12 @@
         media_layer {
             display-name = "MEDIA";
             bindings = <
-                &bootloader     &trans          &trans          &trans          &trans
+                &bootloader     &trans          &trans          &trans          &soft_off
                 &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans
                 &trans          &kp RALT        &trans          &trans          &trans
                                                 &trans          &trans          &trans
 
-                &trans          &trans          &trans          &trans          &trans
+                &trans          &trans          &trans          &trans          &soft_off
                 &out OUT_TOG    &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT
                 &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
                 &kp C_STOP      &kp C_PP        &kp C_MUTE
