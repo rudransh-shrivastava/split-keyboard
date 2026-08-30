@@ -2,16 +2,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 
 #define BASE  0
 #define NAV   1
-#define MOUSE 2
-#define MEDIA 3
-#define NUM   4
-#define SYM   5
-#define FUN   6
-#define GAME  7
+#define MEDIA 2
+#define NUM   3
+#define SYM   4
+#define FUN   5
+#define GAME  6
 
 / {
     behaviors {
@@ -62,12 +60,12 @@
             display-name = "BASE";
             bindings = <
                 &kp Q           &kp W           &kp E           &kp R           &kp T
-                &hml LGUI A     &hml LALT S     &hml LCTRL D    &hml LSHFT F    &kp G
+                &kp A           &hml LALT S     &hml LCTRL D    &hml LSHFT F    &kp G
                 &kp Z           &kp X           &kp C           &kp V           &kp B
-                                                &lt MEDIA ESC   &lt NAV SPACE   &lt MOUSE TAB
+                                                &lt MEDIA ESC   &lt NAV SPACE   &mt LGUI TAB
 
                 &kp Y           &kp U           &kp I           &kp O           &kp P
-                &kp H           &hmr LSHFT J    &hmr LCTRL K    &hmr LALT L     &hmr LGUI SQT
+                &kp H           &hmr LSHFT J    &hmr LCTRL K    &hmr LALT L     &kp SQT
                 &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                 &lt SYM RET     &lt NUM BSPC    &lt FUN DEL
             >;
@@ -85,21 +83,6 @@
                 &caps_word      &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT
                 &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP       &kp END
                 &kp RET         &kp BSPC        &kp DEL
-            >;
-        };
-
-        mouse_layer {
-            display-name = "MOUSE";
-            bindings = <
-                &trans          &trans          &trans          &trans          &trans
-                &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans
-                &trans          &trans          &trans          &trans          &trans
-                                                &mkp MCLK       &trans          &trans
-
-                &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK       &trans
-                &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &trans
-                &trans          &msc SCRL_LEFT  &trans          &trans          &msc SCRL_RIGHT
-                &trans          &trans          &trans
             >;
         };
 
